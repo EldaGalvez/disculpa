@@ -1,0 +1,19 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Tallos -->
+  <path d="M100 180 C95 140, 85 120, 70 90" stroke="#4ade80" stroke-width="4" fill="none"/>
+  <path d="M100 180 C105 140, 115 120, 130 90" stroke="#4ade80" stroke-width="4" fill="none"/>
+  <path d="M100 180 C100 135, 100 115, 100 85" stroke="#4ade80" stroke-width="4" fill="none"/>
+
+  <!-- Flores -->
+  <circle cx="70" cy="80" r="14" fill="#f472b6"/>
+  <circle cx="55" cy="80" r="10" fill="#f9a8d4"/>
+  <circle cx="85" cy="80" r="10" fill="#f9a8d4"/>
+
+  <circle cx="130" cy="80" r="14" fill="#fb7185"/>
+  <circle cx="115" cy="80" r="10" fill="#fecdd3"/>
+  <circle cx="145" cy="80" r="10" fill="#fecdd3"/>
+
+  <circle cx="100" cy="70" r="16" fill="#a78bfa"/>
+  <circle cx="85" cy="70" r="11" fill="#ddd6fe"/>
+  <circle cx="115" cy="70" r="11" fill="#ddd6fe"/>
+</svg>
