@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: linear-gradient(120deg, #0f2027, #203a43, #2c5364);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #eaf2f8;
+}
+
+.envelope {
+  width: 90%;
+  max-width: 420px;
+}
+
+.front, .letter {
+  background: rgba(10, 20, 40, 0.9);
+  border-radius: 18px;
+  padding: 26px 22px;
+  box-shadow: 0 20px 40px rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.front h2 {
+  margin-bottom: 10px;
+}
+
+.front p {
+  margin-bottom: 20px;
+}
+
+button {
+  background: #5eead4;
+  color: #042f2e;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.letter {
+  display: none;
+}
+
+.letter h1 {
+  font-size: 1.7rem;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: .95rem;
+  opacity: .8;
+  margin-bottom: 18px;
+}
+
+.flowers {
+  width: 140px;
+  margin: 10px auto 20px;
+  display: block;
+}
+
+p {
+  font-size: .95rem;
+  line-height: 1.55;
+  margin-bottom: 14px;
+}
+
+.code-box {
+  background: rgba(0,0,0,.45);
+  border-radius: 12px;
+  padding: 14px;
+  font-family: monospace;
+  font-size: .85rem;
+  color: #5eead4;
+  margin: 18px 0;
+}
+
+.final-text {
+  margin-top: 16px;
+}
+
+.signature {
+  margin-top: 18px;
+  font-weight: 500;
+  font-size: 1rem;
+}
